@@ -1,0 +1,120 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+
+
+    "appName": {
+      "value": "func-dev-uks-11"
+    },
+       
+
+      "adfName": {
+      "value": "adf-dev-uks-002"
+    },
+    "paramstorageAccountName": {
+      "value": "stdevuks002"
+    },
+  
+    "keyVaultName": {
+      "value": "kv-dev-uks-11"
+    },
+    "databaseName": {
+      "value": "sqldb-dev-EQM"
+    },
+    "enabledForDeployment": {
+      "value": false
+    },
+    "enabledForDiskEncryption": {
+      "value": false
+    },
+    "enabledForTemplateDeployment": {
+      "value": true
+    },
+    "emailName":{
+      "value": "sushil"
+      
+          },
+      
+          "emailAddress":{
+            "value": "test@test.com"
+            
+                },
+
+    "logAnalyticsWorkspaceName": {
+      "value": "logA-rg-dev-uks-001"
+    },
+
+     "sqlServerName": {
+        "value": "sql-dev-uks-005"
+     },
+
+
+"SQLkeyVaultName": {
+  "value": "kv-sql-dev-uks-011"
+},
+
+"objectId": {
+  "value": "94123cfb-00e5-482e-baac-ed876fd0f1bf"
+},
+
+
+"secretAdminPasswordName":{
+  "value": "sql-dev-1-pwd"
+},
+
+"SqlAdminIdName":{
+  "value": "sushilkulkarni"
+  },
+"secretPasswordName":{
+  "value": "ma-sql-dev-uks-1-odp-pwd"
+},
+
+"UserId":{
+  "value": "ma-sql-dev-uks-1-odp-usr"
+},
+"secretOntoTextPwdName":{
+  "value": "kv-ma-ot-vm-pwd" 
+},
+
+"adminPassw":{
+  "value": "test"
+},
+"resourcegroupname": {
+  "value": "rg-test-ma-now"
+},
+"privateEndpointName":{
+  "value": "pep-1"
+},
+
+
+"pvtEndpointDnsGroupName":{
+  "value": "dns-gn-dev-uks-1"
+},
+
+"publicIpAddressName":{
+  "value": "pip-dev-uks-1"
+},
+
+"networkInterfaceName":{
+  "value": "nic-dev-uks-1"
+},
+
+"subnet1Name":{
+  "value": "snet-dev-uks-1"
+},
+
+"vnetName":{
+  "value": "vnet-dev-uks-1"
+}
+
+
+
+ 
+  }
+    
+  }
+
+
+
+   
